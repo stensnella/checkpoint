@@ -1,0 +1,199 @@
+html {
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+  
+    background-color: white;
+    
+}
+
+*{
+  box-sizing: border-box; 
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    background-image: url("https://image.ibb.co/keBp6T/green.jpg");
+    background-position: center;
+    background-size: cover;
+
+    height: 100%;
+}
+
+
+#iphone{
+    margin:auto;
+}
+
+
+h1{
+	color: white;
+	font-size: 4em;
+    
+}
+
+h2{
+    color: white;
+    opacity: 0.5;
+    font-size: 1.5em;
+    
+}
+
+
+h3{
+    color: rgba(64,64,64,1);
+    font-size: 1em;
+   
+}
+
+p {
+    font-size: 1.2em;
+   
+    text-align:center;
+}
+
+#title{
+    margin:auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titleitem{
+    text-align:center;
+}
+
+#checkmark{
+   width: 40%;
+}
+.container{
+    width:70%;
+    min-height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items:flex-start;
+}
+
+.item{
+    flex-basis: 33%;
+    margin: auto; 
+}
+
+#img{
+    flex-basis:30%;
+    margin-top:20%;
+    width:100%;
+}
+
+#text{
+    flex-basis:45%;
+    margin-top:30%;
+}
+
+.description{
+ 
+    text-align: left;
+}
+.description img{width: 20%;}
+
+.item > img {
+    margin-left: calc(50% - 125px);
+}
+
+.item > p {
+    margin-left: calc(50% - 125px);
+    width: 250px;
+}
+
+
+button{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#demo{ 
+    width:100%;
+    margin:0;
+}
+
+.description > img{
+    width:100%;
+}
+
+
+@media(max-width: 1150px ){
+    #space{
+        width:100%;
+        margin:0;
+    }
+
+}
+
+@media (max-width:1000px){
+
+
+.titleitem h1{
+    text-align:left;
+    font-size:3em;
+    float:left;
+    margin:0;
+    
+}
+
+.titleitem h3{
+    text-align:left;
+    font-size:1em;
+    margin:0;
+
+}
+
+#title{
+    float:left;
+    margin-left:30px;
+    margin-right:auto;
+}
+
+#checkmark{
+    width:50px;
+    margin-left:10;
+}
+
+.container{
+    width:100%;
+    margin:0;
+    flex-wrap: wrap;
+    min-height: 0;
+}
+    #img{
+    display: none;
+}
+
+    #text{
+    flex-basis:100%;
+    margin-top:0;
+    padding:20px;
+}
+.item{
+    flex-basis: 100%;
+    margin-bottom: 40px; 
+}
+
+.description > p{
+    text-align:left;
+}
+} 
+
